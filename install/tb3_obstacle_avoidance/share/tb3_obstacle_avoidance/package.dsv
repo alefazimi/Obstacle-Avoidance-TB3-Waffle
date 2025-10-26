@@ -1,0 +1,8 @@
+source;share/tb3_obstacle_avoidance/hook/cmake_prefix_path.ps1
+source;share/tb3_obstacle_avoidance/hook/cmake_prefix_path.dsv
+source;share/tb3_obstacle_avoidance/hook/cmake_prefix_path.sh
+source;share/tb3_obstacle_avoidance/local_setup.bash
+source;share/tb3_obstacle_avoidance/local_setup.dsv
+source;share/tb3_obstacle_avoidance/local_setup.ps1
+source;share/tb3_obstacle_avoidance/local_setup.sh
+source;share/tb3_obstacle_avoidance/local_setup.zsh

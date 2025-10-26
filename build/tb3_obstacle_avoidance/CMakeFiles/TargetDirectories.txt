@@ -1,0 +1,10 @@
+/home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance/CMakeFiles/uninstall.dir
+/home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance/CMakeFiles/tb3_obstacle_avoidance_uninstall.dir
+/home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance/CMakeFiles/obstacle_avoidance_node.dir
+/home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance/CMakeFiles/test.dir
+/home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance/CMakeFiles/edit_cache.dir
+/home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance/CMakeFiles/rebuild_cache.dir
+/home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance/CMakeFiles/list_install_components.dir
+/home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance/CMakeFiles/install.dir
+/home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance/CMakeFiles/install/local.dir
+/home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance/CMakeFiles/install/strip.dir

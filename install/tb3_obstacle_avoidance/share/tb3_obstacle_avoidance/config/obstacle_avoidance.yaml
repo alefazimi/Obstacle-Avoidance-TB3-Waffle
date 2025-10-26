@@ -1,0 +1,20 @@
+obstacle_avoidance_node:
+  ros__parameters:
+    linear_speed: 0.08
+    angular_speed: 1.0
+    min_range: 0.15
+    stop_distance: 0.55
+    caution_distance: 1.00
+    safety_distance: 0.70
+    max_linear_accel: 0.20
+    max_angular_accel: 0.8
+    startup_delay_sec: 2.0
+    near_turn_multiplier: 1.2
+    scan_topic: /scan
+    cmd_vel_topic: /cmd_vel
+
+
+
+
+
+

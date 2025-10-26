@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="office_world">
+    <gravity>0 0 -9.8</gravity>
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Perimeter walls (width=20, height=16) so layout is clearly different -->
+    <model name="perimeter_walls">
+      <static>true</static>
+      <link name="walls">
+        <collision name="east_c"><geometry><box><size>0.08 16 1</size></box></geometry><pose>10 0 0.5 0 0 0</pose></collision>
+        <visual name="east_v"><geometry><box><size>0.08 16 1</size></box></geometry><pose>10 0 0.5 0 0 0</pose></visual>
+        <collision name="west_c"><geometry><box><size>0.08 16 1</size></box></geometry><pose>-10 0 0.5 0 0 0</pose></collision>
+        <visual name="west_v"><geometry><box><size>0.08 16 1</size></box></geometry><pose>-10 0 0.5 0 0 0</pose></visual>
+        <!-- North wall split to create 3 door gaps -->
+        <collision name="north_left_c"><geometry><box><size>6 0.08 1</size></box></geometry><pose>-7 8 0.5 0 0 0</pose></collision>
+        <visual name="north_left_v"><geometry><box><size>6 0.08 1</size></box></geometry><pose>-7 8 0.5 0 0 0</pose></visual>
+        <collision name="north_mid_c"><geometry><box><size>4 0.08 1</size></box></geometry><pose>0 8 0.5 0 0 0</pose></collision>
+        <visual name="north_mid_v"><geometry><box><size>4 0.08 1</size></box></geometry><pose>0 8 0.5 0 0 0</pose></visual>
+        <collision name="north_right_c"><geometry><box><size>6 0.08 1</size></box></geometry><pose>7 8 0.5 0 0 0</pose></collision>
+        <visual name="north_right_v"><geometry><box><size>6 0.08 1</size></box></geometry><pose>7 8 0.5 0 0 0</pose></visual>
+        <collision name="south_c"><geometry><box><size>20 0.08 1</size></box></geometry><pose>0 -8 0.5 0 0 0</pose></collision>
+        <visual name="south_v"><geometry><box><size>20 0.08 1</size></box></geometry><pose>0 -8 0.5 0 0 0</pose></visual>
+      </link>
+    </model>
+
+    <!-- Interior office layout: central corridor, meeting rooms, open workspace, storage -->
+    <model name="interior_office">
+      <static>true</static>
+      <link name="walls_and_objects">
+        <!-- Central corridor walls (two parallel long walls) -->
+        <collision name="corridor_w1_c"><geometry><box><size>0.08 14 1</size></box></geometry><pose>-2 0 0.5 0 0 0</pose></collision>
+        <visual name="corridor_w1_v"><geometry><box><size>0.08 14 1</size></box></geometry><pose>-2 0 0.5 0 0 0</pose></visual>
+        <collision name="corridor_w2_c"><geometry><box><size>0.08 14 1</size></box></geometry><pose>2 0 0.5 0 0 0</pose></collision>
+        <visual name="corridor_w2_v"><geometry><box><size>0.08 14 1</size></box></geometry><pose>2 0 0.5 0 0 0</pose></visual>
+
+        <!-- Meeting room (top-left) walls with doorway gap -->
+        <collision name="mr_tl_w1_c"><geometry><box><size>0.08 6 1</size></box></geometry><pose>-7 5 0.5 0 0 0</pose></collision>
+        <visual name="mr_tl_w1_v"><geometry><box><size>0.08 6 1</size></box></geometry><pose>-7 5 0.5 0 0 0</pose></visual>
+        <collision name="mr_tl_w2_c"><geometry><box><size>6 0.08 1</size></box></geometry><pose>-5 2 0.5 0 0 0</pose></collision>
+        <visual name="mr_tl_w2_v"><geometry><box><size>6 0.08 1</size></box></geometry><pose>-5 2 0.5 0 0 0</pose></visual>
+        <collision name="mr_tl_w3_c"><geometry><box><size>6 0.08 1</size></box></geometry><pose>-5 8 0.5 0 0 0</pose></collision>
+        <visual name="mr_tl_w3_v"><geometry><box><size>6 0.08 1</size></box></geometry><pose>-5 8 0.5 0 0 0</pose></visual>
+
+        <!-- Open office (top-right) with scattered obstacles -->
+        <collision name="deskA_c"><geometry><box><size>1.0 0.7 0.75</size></box></geometry><pose>6.5 6.0 0.375 0 0 0</pose></collision>
+        <visual name="deskA_v"><geometry><box><size>1.0 0.7 0.75</size></box></geometry><pose>6.5 6.0 0.375 0 0 0</pose></visual>
+        <collision name="deskB_c"><geometry><box><size>1.0 0.7 0.75</size></box></geometry><pose>5.0 5.0 0.375 0 0 0</pose></collision>
+        <visual name="deskB_v"><geometry><box><size>1.0 0.7 0.75</size></box></geometry><pose>5.0 5.0 0.375 0 0 0</pose></visual>
+        <collision name="cabinet1_c"><geometry><box><size>0.6 0.6 1.2</size></box></geometry><pose>7.5 4.0 0.6 0 0 0</pose></collision>
+        <visual name="cabinet1_v"><geometry><box><size>0.6 0.6 1.2</size></box></geometry><pose>7.5 4.0 0.6 0 0 0</pose></visual>
+
+        <!-- Storage area (bottom-right) boxed with a doorway gap -->
+        <collision name="storage_w1_c"><geometry><box><size>0.08 4 1</size></box></geometry><pose>7 -4 0.5 0 0 0</pose></collision>
+        <visual name="storage_w1_v"><geometry><box><size>0.08 4 1</size></box></geometry><pose>7 -4 0.5 0 0 0</pose></visual>
+        <collision name="storage_w2_c"><geometry><box><size>4 0.08 1</size></box></geometry><pose>5 -6 0.5 0 0 0</pose></collision>
+        <visual name="storage_w2_v"><geometry><box><size>4 0.08 1</size></box></geometry><pose>5 -6 0.5 0 0 0</pose></visual>
+        <collision name="storage_w3_c"><geometry><box><size>4 0.08 1</size></box></geometry><pose>9 -6 0.5 0 0 0</pose></collision>
+        <visual name="storage_w3_v"><geometry><box><size>4 0.08 1</size></box></geometry><pose>9 -6 0.5 0 0 0</pose></visual>
+
+        <!-- Corridor decor: pillars/plants -->
+        <collision name="pillar1_c"><geometry><cylinder><radius>0.25</radius><length>1.0</length></cylinder></geometry><pose>-1.0 2.0 0.5 0 0 0</pose></collision>
+        <visual name="pillar1_v"><geometry><cylinder><radius>0.25</radius><length>1.0</length></cylinder></geometry><pose>-1.0 2.0 0.5 0 0 0</pose></visual>
+        <collision name="pillar2_c"><geometry><cylinder><radius>0.25</radius><length>1.0</length></cylinder></geometry><pose>1.0 -1.5 0.5 0 0 0</pose></collision>
+        <visual name="pillar2_v"><geometry><cylinder><radius>0.25</radius><length>1.0</length></cylinder></geometry><pose>1.0 -1.5 0.5 0 0 0</pose></visual>
+      </link>
+    </model>
+
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <direction>-0.5 0.2 -1</direction>
+    </light>
+  </world>
+</sdf>
+
+

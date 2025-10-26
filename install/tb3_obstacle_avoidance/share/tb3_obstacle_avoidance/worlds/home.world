@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="home_world">
+    <gravity>0 0 -9.8</gravity>
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <model name="home_walls">
+      <static>true</static>
+      <link name="walls">
+        <collision name="east_c"><geometry><box><size>0.05 10 1</size></box></geometry><pose>5 0 0.5 0 0 0</pose></collision>
+        <visual name="east_v"><geometry><box><size>0.05 10 1</size></box></geometry><pose>5 0 0.5 0 0 0</pose></visual>
+        <collision name="west_c"><geometry><box><size>0.05 10 1</size></box></geometry><pose>-5 0 0.5 0 0 0</pose></collision>
+        <visual name="west_v"><geometry><box><size>0.05 10 1</size></box></geometry><pose>-5 0 0.5 0 0 0</pose></visual>
+        <collision name="north_left_c"><geometry><box><size>8 0.05 1</size></box></geometry><pose>-6 5 0.5 0 0 0</pose></collision>
+        <visual name="north_left_v"><geometry><box><size>8 0.05 1</size></box></geometry><pose>-6 5 0.5 0 0 0</pose></visual>
+        <collision name="north_right_c"><geometry><box><size>8 0.05 1</size></box></geometry><pose>6 5 0.5 0 0 0</pose></collision>
+        <visual name="north_right_v"><geometry><box><size>8 0.05 1</size></box></geometry><pose>6 5 0.5 0 0 0</pose></visual>
+        <collision name="south_c"><geometry><box><size>20 0.05 1</size></box></geometry><pose>0 -5 0.5 0 0 0</pose></collision>
+        <visual name="south_v"><geometry><box><size>20 0.05 1</size></box></geometry><pose>0 -5 0.5 0 0 0</pose></visual>
+        <collision name="interior_c"><geometry><box><size>0.05 8 1</size></box></geometry><pose>0 1 0.5 0 0 0</pose></collision>
+        <visual name="interior_v"><geometry><box><size>0.05 8 1</size></box></geometry><pose>0 1 0.5 0 0 0</pose></visual>
+      </link>
+    </model>
+
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <direction>-0.5 0.2 -1</direction>
+    </light>
+  </world>
+</sdf>
+
+
+
+
+
+

@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.000196] (tb3_obstacle_avoidance) JobQueued: {'identifier': 'tb3_obstacle_avoidance', 'dependencies': OrderedDict()}
+[0.000252] (tb3_obstacle_avoidance) JobStarted: {'identifier': 'tb3_obstacle_avoidance'}
+[0.008490] (tb3_obstacle_avoidance) JobProgress: {'identifier': 'tb3_obstacle_avoidance', 'progress': 'cmake'}
+[0.009042] (tb3_obstacle_avoidance) Command: {'cmd': ['/usr/bin/cmake', '/home/amata/ros2_ws/src/tb3_obstacle_avoidance', '-DCMAKE_INSTALL_PREFIX=/home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance'], 'cwd': '/home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amata'), ('LC_TIME', 'az_IR'), ('all_proxy', 'socks://127.0.0.1:8086/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/cursor/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/amata/ros2_ws/install/more_interfaces/lib:/home/amata/ros2_ws/install/action_tutorials_interfaces/lib:/home/amata/ros2_ws/install/action_tutorials_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/amata'), ('CHROME_DESKTOP', 'cursor.desktop'), ('TERM_PROGRAM_VERSION', '1.7.46'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/cursor.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/cursor/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'az_IR'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/cursor/cursor'), ('MANAGERPID', '1828'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2005'), ('BUNDLED_DEBUGPY_PATH', '/home/amata/.cursor/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18960'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/amata/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amata'), ('JOURNAL_STREAM', '8:17625'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amata'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/amata/ros2_ws/install/action_tutorials_cpp/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/amata/.cursor/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/Azimi:@/tmp/.ICE-unix/1976,unix/Azimi:/tmp/.ICE-unix/1976'), ('INVOCATION_ID', '74facf6ed50f40ee946f331215d3ae8b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/amata/.cursor/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-59e25c6635a6bb2e.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'az_IR'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NP8XD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f56d3cb306.sock'), ('TERM_PROGRAM', 'vscode'), ('CURSOR_TRACE_ID', '9831e84369a24cec8d9483bbebf647f1'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amata/ros2_ws/install/tutorial-interfaces:/home/amata/ros2_ws/install/tb3_obstacle_avoidance:/home/amata/ros2_ws/install/my_package:/home/amata/ros2_ws/install/more_interfaces:/home/amata/ros2_ws/install/cpp_srvcli:/home/amata/ros2_ws/install/cpp_pubsub:/home/amata/ros2_ws/install/cpp_parameters:/home/amata/ros2_ws/install/action_tutorials_interfaces:/home/amata/ros2_ws/install/action_tutorials_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'az_IR'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'az_IR'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('TURTLEBOT4_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amata/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/amata/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amata/ros2_ws/install/tutorial-interfaces:/home/amata/ros2_ws/install/tb3_obstacle_avoidance:/home/amata/ros2_ws/install/my_package:/home/amata/ros2_ws/install/more_interfaces:/home/amata/ros2_ws/install/cpp_srvcli:/home/amata/ros2_ws/install/cpp_pubsub:/home/amata/ros2_ws/install/cpp_parameters:/home/amata/ros2_ws/install/action_tutorials_interfaces:/home/amata/ros2_ws/install/action_tutorials_cpp:/opt/ros/humble')]), 'shell': False}
+[0.099453] (-) TimerEvent: {}
+[0.195731] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199511] (-) TimerEvent: {}
+[0.271209] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.285677] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299652] (-) TimerEvent: {}
+[0.381643] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.390459] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.391460] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.392314] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.398183] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399765] (-) TimerEvent: {}
+[0.500031] (-) TimerEvent: {}
+[0.500272] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.508726] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.509073] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.509596] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.516936] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600170] (-) TimerEvent: {}
+[0.697561] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.700235] (-) TimerEvent: {}
+[0.800502] (-) TimerEvent: {}
+[0.871735] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.900636] (-) TimerEvent: {}
+[1.001068] (-) TimerEvent: {}
+[1.001435] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.018345] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.042690] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.085270] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101215] (-) TimerEvent: {}
+[1.126641] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201324] (-) TimerEvent: {}
+[1.236380] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.243593] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.301417] (-) TimerEvent: {}
+[1.303326] (tb3_obstacle_avoidance) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.325171] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.401615] (-) TimerEvent: {}
+[1.460764] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.461078] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.501745] (-) TimerEvent: {}
+[1.555191] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.556317] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.601882] (-) TimerEvent: {}
+[1.676913] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.702021] (-) TimerEvent: {}
+[1.802308] (-) TimerEvent: {}
+[1.817474] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.829195] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Generating done\n'}
+[1.833444] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Build files have been written to: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance\n'}
+[1.842732] (tb3_obstacle_avoidance) CommandEnded: {'returncode': 0}
+[1.844926] (tb3_obstacle_avoidance) JobProgress: {'identifier': 'tb3_obstacle_avoidance', 'progress': 'build'}
+[1.845174] (tb3_obstacle_avoidance) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance', '--', '-j8', '-l8'], 'cwd': '/home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amata'), ('LC_TIME', 'az_IR'), ('all_proxy', 'socks://127.0.0.1:8086/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/cursor/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/amata/ros2_ws/install/more_interfaces/lib:/home/amata/ros2_ws/install/action_tutorials_interfaces/lib:/home/amata/ros2_ws/install/action_tutorials_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/amata'), ('CHROME_DESKTOP', 'cursor.desktop'), ('TERM_PROGRAM_VERSION', '1.7.46'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/cursor.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/cursor/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'az_IR'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/cursor/cursor'), ('MANAGERPID', '1828'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2005'), ('BUNDLED_DEBUGPY_PATH', '/home/amata/.cursor/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18960'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/amata/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amata'), ('JOURNAL_STREAM', '8:17625'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amata'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/amata/ros2_ws/install/action_tutorials_cpp/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/amata/.cursor/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/Azimi:@/tmp/.ICE-unix/1976,unix/Azimi:/tmp/.ICE-unix/1976'), ('INVOCATION_ID', '74facf6ed50f40ee946f331215d3ae8b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/amata/.cursor/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-59e25c6635a6bb2e.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'az_IR'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NP8XD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f56d3cb306.sock'), ('TERM_PROGRAM', 'vscode'), ('CURSOR_TRACE_ID', '9831e84369a24cec8d9483bbebf647f1'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amata/ros2_ws/install/tutorial-interfaces:/home/amata/ros2_ws/install/tb3_obstacle_avoidance:/home/amata/ros2_ws/install/my_package:/home/amata/ros2_ws/install/more_interfaces:/home/amata/ros2_ws/install/cpp_srvcli:/home/amata/ros2_ws/install/cpp_pubsub:/home/amata/ros2_ws/install/cpp_parameters:/home/amata/ros2_ws/install/action_tutorials_interfaces:/home/amata/ros2_ws/install/action_tutorials_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'az_IR'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'az_IR'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('TURTLEBOT4_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amata/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/amata/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amata/ros2_ws/install/tutorial-interfaces:/home/amata/ros2_ws/install/tb3_obstacle_avoidance:/home/amata/ros2_ws/install/my_package:/home/amata/ros2_ws/install/more_interfaces:/home/amata/ros2_ws/install/cpp_srvcli:/home/amata/ros2_ws/install/cpp_pubsub:/home/amata/ros2_ws/install/cpp_parameters:/home/amata/ros2_ws/install/action_tutorials_interfaces:/home/amata/ros2_ws/install/action_tutorials_cpp:/opt/ros/humble')]), 'shell': False}
+[1.902410] (-) TimerEvent: {}
+[1.907329] (tb3_obstacle_avoidance) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_avoidance_node.dir/src/obstacle_avoidance_node.cpp.o\x1b[0m\n'}
+[2.002557] (-) TimerEvent: {}
+[2.102874] (-) TimerEvent: {}
+[2.203220] (-) TimerEvent: {}
+[2.303544] (-) TimerEvent: {}
+[2.403850] (-) TimerEvent: {}
+[2.504169] (-) TimerEvent: {}
+[2.604430] (-) TimerEvent: {}
+[2.704750] (-) TimerEvent: {}
+[2.805060] (-) TimerEvent: {}
+[2.905353] (-) TimerEvent: {}
+[3.005663] (-) TimerEvent: {}
+[3.105979] (-) TimerEvent: {}
+[3.206302] (-) TimerEvent: {}
+[3.306627] (-) TimerEvent: {}
+[3.406941] (-) TimerEvent: {}
+[3.507262] (-) TimerEvent: {}
+[3.607582] (-) TimerEvent: {}
+[3.707893] (-) TimerEvent: {}
+[3.808218] (-) TimerEvent: {}
+[3.908544] (-) TimerEvent: {}
+[4.008866] (-) TimerEvent: {}
+[4.109209] (-) TimerEvent: {}
+[4.209513] (-) TimerEvent: {}
+[4.309874] (-) TimerEvent: {}
+[4.410189] (-) TimerEvent: {}
+[4.510545] (-) TimerEvent: {}
+[4.610869] (-) TimerEvent: {}
+[4.711215] (-) TimerEvent: {}
+[4.811538] (-) TimerEvent: {}
+[4.911857] (-) TimerEvent: {}
+[5.012182] (-) TimerEvent: {}
+[5.112506] (-) TimerEvent: {}
+[5.212825] (-) TimerEvent: {}
+[5.313099] (-) TimerEvent: {}
+[5.413376] (-) TimerEvent: {}
+[5.513690] (-) TimerEvent: {}
+[5.614011] (-) TimerEvent: {}
+[5.714271] (-) TimerEvent: {}
+[5.814587] (-) TimerEvent: {}
+[5.914916] (-) TimerEvent: {}
+[6.015255] (-) TimerEvent: {}
+[6.115557] (-) TimerEvent: {}
+[6.215864] (-) TimerEvent: {}
+[6.316200] (-) TimerEvent: {}
+[6.416555] (-) TimerEvent: {}
+[6.516898] (-) TimerEvent: {}
+[6.617249] (-) TimerEvent: {}
+[6.717601] (-) TimerEvent: {}
+[6.817929] (-) TimerEvent: {}
+[6.918237] (-) TimerEvent: {}
+[7.018551] (-) TimerEvent: {}
+[7.118866] (-) TimerEvent: {}
+[7.219192] (-) TimerEvent: {}
+[7.319514] (-) TimerEvent: {}
+[7.419839] (-) TimerEvent: {}
+[7.520170] (-) TimerEvent: {}
+[7.620464] (-) TimerEvent: {}
+[7.720807] (-) TimerEvent: {}
+[7.821147] (-) TimerEvent: {}
+[7.921460] (-) TimerEvent: {}
+[8.021780] (-) TimerEvent: {}
+[8.122096] (-) TimerEvent: {}
+[8.222400] (-) TimerEvent: {}
+[8.322714] (-) TimerEvent: {}
+[8.423043] (-) TimerEvent: {}
+[8.523365] (-) TimerEvent: {}
+[8.623678] (-) TimerEvent: {}
+[8.724022] (-) TimerEvent: {}
+[8.824342] (-) TimerEvent: {}
+[8.924651] (-) TimerEvent: {}
+[9.024968] (-) TimerEvent: {}
+[9.125281] (-) TimerEvent: {}
+[9.225573] (-) TimerEvent: {}
+[9.325908] (-) TimerEvent: {}
+[9.426218] (-) TimerEvent: {}
+[9.526533] (-) TimerEvent: {}
+[9.626853] (-) TimerEvent: {}
+[9.727206] (-) TimerEvent: {}
+[9.827564] (-) TimerEvent: {}
+[9.927853] (-) TimerEvent: {}
+[10.028190] (-) TimerEvent: {}
+[10.128519] (-) TimerEvent: {}
+[10.228830] (-) TimerEvent: {}
+[10.329142] (-) TimerEvent: {}
+[10.429491] (-) TimerEvent: {}
+[10.529804] (-) TimerEvent: {}
+[10.630131] (-) TimerEvent: {}
+[10.730474] (-) TimerEvent: {}
+[10.830805] (-) TimerEvent: {}
+[10.931132] (-) TimerEvent: {}
+[11.031487] (-) TimerEvent: {}
+[11.131815] (-) TimerEvent: {}
+[11.227241] (tb3_obstacle_avoidance) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable obstacle_avoidance_node\x1b[0m\n'}
+[11.231936] (-) TimerEvent: {}
+[11.332228] (-) TimerEvent: {}
+[11.432542] (-) TimerEvent: {}
+[11.532868] (-) TimerEvent: {}
+[11.633189] (-) TimerEvent: {}
+[11.713970] (tb3_obstacle_avoidance) StdoutLine: {'line': b'[100%] Built target obstacle_avoidance_node\n'}
+[11.727874] (tb3_obstacle_avoidance) CommandEnded: {'returncode': 0}
+[11.728459] (tb3_obstacle_avoidance) JobProgress: {'identifier': 'tb3_obstacle_avoidance', 'progress': 'install'}
+[11.733259] (-) TimerEvent: {}
+[11.739832] (tb3_obstacle_avoidance) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance'], 'cwd': '/home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amata'), ('LC_TIME', 'az_IR'), ('all_proxy', 'socks://127.0.0.1:8086/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/cursor/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/amata/ros2_ws/install/more_interfaces/lib:/home/amata/ros2_ws/install/action_tutorials_interfaces/lib:/home/amata/ros2_ws/install/action_tutorials_cpp/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/amata'), ('CHROME_DESKTOP', 'cursor.desktop'), ('TERM_PROGRAM_VERSION', '1.7.46'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/cursor.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/cursor/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'az_IR'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/cursor/cursor'), ('MANAGERPID', '1828'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2005'), ('BUNDLED_DEBUGPY_PATH', '/home/amata/.cursor/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18960'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/amata/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amata'), ('JOURNAL_STREAM', '8:17625'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amata'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/amata/ros2_ws/install/action_tutorials_cpp/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/amata/.cursor/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/Azimi:@/tmp/.ICE-unix/1976,unix/Azimi:/tmp/.ICE-unix/1976'), ('INVOCATION_ID', '74facf6ed50f40ee946f331215d3ae8b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'az_IR'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/amata/.cursor/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-59e25c6635a6bb2e.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'az_IR'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NP8XD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f56d3cb306.sock'), ('TERM_PROGRAM', 'vscode'), ('CURSOR_TRACE_ID', '9831e84369a24cec8d9483bbebf647f1'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amata/ros2_ws/install/tutorial-interfaces:/home/amata/ros2_ws/install/tb3_obstacle_avoidance:/home/amata/ros2_ws/install/my_package:/home/amata/ros2_ws/install/more_interfaces:/home/amata/ros2_ws/install/cpp_srvcli:/home/amata/ros2_ws/install/cpp_pubsub:/home/amata/ros2_ws/install/cpp_parameters:/home/amata/ros2_ws/install/action_tutorials_interfaces:/home/amata/ros2_ws/install/action_tutorials_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'az_IR'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'az_IR'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'az_IR'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amata/ros2_ws/src/tb3_obstacle_avoidance/build/tb3_obstacle_avoidance'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('TURTLEBOT4_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amata/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/amata/ros2_ws/install/action_tutorials_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'az_IR'), ('LC_PAPER', 'az_IR'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amata/ros2_ws/install/tutorial-interfaces:/home/amata/ros2_ws/install/tb3_obstacle_avoidance:/home/amata/ros2_ws/install/my_package:/home/amata/ros2_ws/install/more_interfaces:/home/amata/ros2_ws/install/cpp_srvcli:/home/amata/ros2_ws/install/cpp_pubsub:/home/amata/ros2_ws/install/cpp_parameters:/home/amata/ros2_ws/install/action_tutorials_interfaces:/home/amata/ros2_ws/install/action_tutorials_cpp:/opt/ros/humble')]), 'shell': False}
+[11.749816] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.750028] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/lib/tb3_obstacle_avoidance/obstacle_avoidance_node\n'}
+[11.754338] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Set runtime path of "/home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/lib/tb3_obstacle_avoidance/obstacle_avoidance_node" to ""\n'}
+[11.754479] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/launch\n'}
+[11.754692] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/launch/office_slam_toolbox.launch.py\n'}
+[11.754904] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/launch/warehouse_slam_toolbox.launch.py\n'}
+[11.755010] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/launch/home_mapping.launch.py\n'}
+[11.755111] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/launch/sim_tb3_nav2_avoidance.launch.py\n'}
+[11.755224] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/launch/sim_tb3_avoidance.launch.py\n'}
+[11.755303] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/launch/home_slam_toolbox.launch.py\n'}
+[11.755394] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/config\n'}
+[11.755486] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/config/rviz\n'}
+[11.755551] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/config/rviz/tb3_mapping.rviz\n'}
+[11.755637] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/config/obstacle_avoidance.yaml\n'}
+[11.755728] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/worlds\n'}
+[11.755889] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/worlds/office.world\n'}
+[11.755981] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/worlds/home.world\n'}
+[11.756094] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/worlds/warehouse.world\n'}
+[11.756404] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/ament_index/resource_index/package_run_dependencies/tb3_obstacle_avoidance\n'}
+[11.756658] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/ament_index/resource_index/parent_prefix_path/tb3_obstacle_avoidance\n'}
+[11.756926] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/environment/ament_prefix_path.sh\n'}
+[11.757182] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/environment/ament_prefix_path.dsv\n'}
+[11.757377] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/environment/path.sh\n'}
+[11.757556] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/environment/path.dsv\n'}
+[11.757801] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/local_setup.bash\n'}
+[11.757986] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/local_setup.sh\n'}
+[11.758147] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/local_setup.zsh\n'}
+[11.758383] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/local_setup.dsv\n'}
+[11.758570] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/package.dsv\n'}
+[11.758844] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/ament_index/resource_index/packages/tb3_obstacle_avoidance\n'}
+[11.759042] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/cmake/tb3_obstacle_avoidanceConfig.cmake\n'}
+[11.759176] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/cmake/tb3_obstacle_avoidanceConfig-version.cmake\n'}
+[11.759409] (tb3_obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/amata/ros2_ws/src/tb3_obstacle_avoidance/install/tb3_obstacle_avoidance/share/tb3_obstacle_avoidance/package.xml\n'}
+[11.761564] (tb3_obstacle_avoidance) CommandEnded: {'returncode': 0}
+[11.779933] (tb3_obstacle_avoidance) JobEnded: {'identifier': 'tb3_obstacle_avoidance', 'rc': 0}
+[11.780370] (-) EventReactorShutdown: {}

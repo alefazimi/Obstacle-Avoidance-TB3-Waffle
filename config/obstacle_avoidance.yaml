@@ -1,0 +1,49 @@
+obstacle_avoidance:
+  ros__parameters:
+    # Detection
+    front_detection_distance: 0.5
+    side_detection_angle: 45.0
+    min_clearance: 0.8
+    min_range: 0.15
+    max_range: 30.0
+    
+    # Movement
+    forward_speed: 0.15
+    reverse_speed: 0.1
+    reverse_distance: 0.2
+    reverse_timeout: 2.0
+    turn_speed: 0.3
+    max_linear_accel: 0.1
+    max_angular_accel: 0.5
+    
+    # Recovery
+    stuck_timeout: 10.0
+    max_turn_angle: 180.0
+    clear_distance: 1.0
+    startup_delay_sec: 2.0
+    
+    # State Machine 
+    state_timeout: 5.0
+    turn_completion_threshold: 0.1
+    
+    # Topics
+    scan_topic: "/scan"
+    cmd_vel_topic: "/cmd_vel"
+    camera_topic: "/camera/image_raw"
+    odom_topic: "/odom"
+    
+    # Logging
+    log_level: "INFO"
+    enable_debug: false
+    
+    # Camera
+    enable_camera: false
+    camera_detection_threshold: 0.3
+    camera_roi_width: 320
+    camera_roi_height: 240
+
+
+
+
+
+
